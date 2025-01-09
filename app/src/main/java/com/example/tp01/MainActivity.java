@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         String lastName = ((EditText)findViewById(R.id.edtLastName)).getText().toString();
         String firstName = ((EditText)findViewById(R.id.edtFirstName)).getText().toString();
 
-        textView.setText("Nom : " + lastName + "\nPrenom : " + firstName);
+        textView.setText("Nom: " + lastName + "\nPrenom: " + firstName);
 
         Toast.makeText(v.getContext(), "OK !", Toast.LENGTH_LONG).show();
     }
